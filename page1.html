@@ -1,0 +1,273 @@
+<!doctype html>
+
+<html>
+
+<!-- /tables.html by , Sat, 05 Aug 2017 13:58:48 GMT -->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A Components Mix Bootstarp 3 Admin Dashboard Template">
+<meta name="author" content="Westilian">
+<title>Admin</title>
+<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="css/animate.css" type="text/css">
+<link rel="stylesheet" href="css/waves.css" type="text/css">
+<link rel="stylesheet" href="css/layout.css" type="text/css">
+<link rel="stylesheet" href="css/components.css" type="text/css">
+<link rel="stylesheet" href="css/plugins.css" type="text/css">
+<link rel="stylesheet" href="css/common-styles.css" type="text/css">
+<link rel="stylesheet" href="css/pages.css" type="text/css">
+<link rel="stylesheet" href="css/responsive.css" type="text/css">
+<link rel="stylesheet" href="css/matmix-iconfont.css" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,500italic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+							<div class="widget-container">
+								<div class="widget-block">
+									<div class="row">
+                                         <div class="col-md-4">
+                                             <!-- Trigger the modal with a button -->
+                                                <button type="button" class="btn btn-default" data-toggle="modal" data-target="#add-event">
+                                                <i class="ico-plus"></i> Add New Student</button>
+                                                 <!-- Modal -->
+                                                    <div class="modal fade" id="add-event" role="dialog">
+                                                        <div class="modal-dialog">
+                                                
+                                                            <!-- Modal content-->
+                                                            <div class="modal-content">
+                                                                <div class="modal-header">
+                                                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                                    <h4 class="modal-title">Create New Student</h4>
+                                                                </div>
+                                                                <div class="modal-footer">
+                                                                    <!-- Form Starts Here -->
+                                                                    <div class="col-md-12">
+                                                                        <form class="form-horizontal" method="post">
+                                                                            <div class="form-group">
+                                                                                <label for="first_name" class="col-md-3 control-label">First name: </label>
+                                                                                <div class="col-md-7">
+                                                                                    <input type="text" class="form-control" id="first_name" placeholder="Enter first name" required="" name="first_name">
+                                                                                </div>
+                                                                            </div>
+																			<div class="form-group">
+                                                                                <label for="last_name" class="col-md-3 control-label">Last name: </label>
+                                                                                <div class="col-md-7">
+                                                                                    <input type="text" class="form-control" id="last_name" placeholder="Enter last name" required="" name="last_name">
+                                                                                </div>
+                                                                            </div>
+																			<div class="form-group">
+                                                                                <label for="email" class="col-md-3 control-label">Email: </label>
+                                                                                <div class="col-md-7">
+                                                                                    <input type="email" class="form-control" id="email" placeholder="Enter last email" required="" name="email">
+                                                                                </div>
+                                                                            </div>
+																			<div class="form-group">
+                                                                                <label for="mobile" class="col-md-3 control-label">Mobile-no: </label>
+                                                                                <div class="col-md-7">
+                                                                                    <input type="tel" class="form-control" id="mobile" placeholder="Enter mobile no" required="" name="mobile">
+                                                                                </div>
+                                                                            </div>
+																			<div class="form-group">
+                                                                                <label for="role" class="col-md-3 control-label">Role: </label>
+                                                                                <div class="col-md-7">
+                                                                                    <select class="form-control" required="" name="role">
+                                                                                        <option id="education">Admin</option>
+                                                                                        <option id="entertainment">User</option>
+                                                                                        <option id="healthcare">Owner</option>
+                                                                                        <option id="finance">Student</option>
+                                                                                    </select>
+                                                                                </div>
+                                                                            </div>
+                                                                    
+                                                                            
+                                                                    
+                                                                            
+                                                                    
+                                                                            
+                                                                    
+                                                                            <div class="form-group">
+                                                                                <label for="" class="col-md-3 control-label"></label>
+                                                                                <div class="col-md-7 text-center">
+                                                                                    <button type="Submit" class="btn btn-primary btn-lg " style="">Submit</button>
+                                                                                    <button type="reset" class="btn btn-danger btn-lg " style="">Reset</button>
+                                                                    
+                                                                                </div>
+                                                                            </div>
+                                                                    
+                                                                        </form>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>  
+                                            </div>    
+                                        </div>
+									</div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="dataTables_length" id="DataTables_Table_0_length">
+                                                <label>
+                                                    <select class="td-select form-control">
+                                                        <option value="10">10</option>
+                                                        <option value="20">20</option>
+                                                        <option value="30">30</option>
+                                                        <option value="40">40</option>
+                                                        <option value="50">50</option>
+                                                        <option value="-1">All</option>
+                                                    </select>
+                                                    <span class="r-label">Entries</span>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <form class="form-horizontal">
+                                                <div class="form-group">
+                                                    <label class="col-md-6 control-label">Search:</label>
+                                                    <div class=" col-md-6">
+                                                        <input class="form-control" type="text" placeholder="Search">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+									<div class="table-responsive">
+										<table class="table table-hover table-bordered matmix-dt bg-hc-border">
+										<thead>
+										
+    									
+    										<th>
+    											S.no
+    										</th>
+                                            <th>
+                                                Name
+                                            </th>
+    										<th>
+    											Role
+											
+    										</th>
+                                            <th>
+                                                Phone Number
+                                            </th>
+                                            <th>
+                                                 Email
+                                            </th>
+    										
+    									</tr>
+									    </thead>
+									<tbody>
+									
+										<td>
+											1
+										</td>
+										<td>
+											Arti
+										</td>
+										<td>
+											admin
+										</td>
+										<td>
+											64687858
+										</td>
+										<td>
+											abc@gmail.com
+										</td>
+										
+                                        
+									</tr>
+									
+                                        
+
+									</tbody>
+									</table>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="dataTables_info" id="DataTables_Table_0_info" role="status" aria-live="polite">Showing 1 to 5 of 5 entries
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <ul class="pagination" style="float: right">
+                                                <li class="paginate_button previous disabled" id="DataTables_Table_0_previous">
+                                                    <a href="#" aria-controls="DataTables_Table_0" data-dt-idx="0" tabindex="0">Previous</a>
+                                                </li>
+                                                <li class="paginate_button active">
+                                                    <a href="#" aria-controls="DataTables_Table_0" data-dt-idx="1" tabindex="0">1</a>
+                                                </li>
+                                                <li class="paginate_button next disabled" id="DataTables_Table_0_next"><a href="#" aria-controls="DataTables_Table_0" data-dt-idx="2" tabindex="0">Next</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+								</div>
+							</div>
+                            <div class="dt-pagination">
+                                    <nav>
+                                    <ul class="pagination">
+                                        <li><a href="#">1</a>
+                                        </li>
+                                        <li><a href="#">2</a>
+                                        </li>
+                                        <li>
+                                        <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">Next</span>
+                                        </a>
+                                        </li>
+                                    </ul>
+                                    </nav>
+                                </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!--Footer Start Here -->
+    
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<!--Load Mask-->
+<script src="js/jquery.loadmask.js"></script>
+<script src="js/jRespond.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/nav-accordion.js"></script>
+<script src="js/hoverintent.js"></script>
+<!--Materialize Effect-->
+<script src="js/waves.js"></script>
+<!--iCheck-->
+<script src="js/icheck.js"></script>
+<!--Select2-->
+<script src="js/select2.js"></script>
+<!--jquery.mentionsInput-->
+<script src="js/underscore.js"></script>
+<script src="js/jquery.elastic.js"></script>
+<script src="js/jquery.events.input.js"></script>
+<script src="js/jquery.mentionsInput.js"></script>
+<script src="js/bootstrap-filestyle.js"></script>
+<!--Text Editor-->
+<script src="js/summernote.min.js"></script>
+<!--CHARTS-->
+<script src="js/chart/sparkline/jquery.sparkline.js"></script>
+<script src="js/chart/easypie/jquery.easypiechart.min.js"></script>
+<!--Smart Resize-->
+<script src="js/smart-resize.js"></script>
+<!--Data Tables-->
+<script src="js/jquery.dataTables.js"></script>
+<script src="js/dataTables.responsive.js"></script>
+<script src="js/dataTables.tableTools.js"></script>
+<script src="js/dataTables.bootstrap.js"></script>
+<script src="js/stacktable.js"></script>
+<script src="js/bootbox.js"></script>
+<script src="js/sweetalert.js"></script>
+<!--Layout Initialize-->
+<script src="js/layout.init.js"></script>
+<!--Template Plugins Initialize-->
+<script src="js/matmix.init.js"></script>
+<!--High Resolution Ready-->
+<script src="js/retina.min.js"></script>
+</body>
+
+<!-- /tables.html by , Sat, 05 Aug 2017 13:59:25 GMT -->
+</html>
